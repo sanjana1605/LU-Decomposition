@@ -42,7 +42,7 @@ A=np.array(eval(input()))
 b=np.array(eval(input()))
 lu,piv=lu_factor(A)
 x=lu_solve((lu,piv),b)
-print(x)
+print(x) 
 
 ## Output:
 ![Screenshot 2024-05-23 092042](https://github.com/sanjana1605/LU-Decomposition/assets/155608340/55b2b0be-53c6-4aea-8807-10d0c3e100d8)
